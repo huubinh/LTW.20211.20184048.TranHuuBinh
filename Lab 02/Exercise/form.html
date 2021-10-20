@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="css/styleForm.css">
+    </head>
+    <body>
+        <form action="info.php" method="post">
+            <label>Enter your name
+                <input type="text" name="name">
+            </label>
+            <label>Enter your class
+                <input type="text" name="class">
+            </label>
+            <label>Enter your university
+                <input type="text" name="university">
+            </label>
+            <label>Enter your email
+                <input type="email" name="email">
+            </label>
+            <div>
+                <label>Choose your gender</label>
+                <input type="radio" name="gender" id="male" class="gender" value="Male">
+                <label for="male" class="gender">Male</label>
+                <input type="radio" name="gender" id="female" class="gender" value="Female">
+                <label for="female" class="gender">Female</label>
+                <input type="radio" name="gender" id="other" class="gender" value="Other">
+                <label for="other" class="gender">Other</label>
+            </div>
+            <div>
+                <label>Choose your hobby</label>
+                <input type="checkbox" name="soccer" id="soccer" class="hobby" value="soccer">
+                <label for="soccer" class="hobby">Soccer</label>
+                <input type="checkbox" name="tennis" id="tennis" class="hobby" value="tennis">
+                <label for="tennis" class="hobby">Tennis</label>
+                <input type="checkbox" name="badminton" id="badminton" class="hobby" value="badminton">
+                <label for="badminton" class="hobby">Badminton</label>
+    
+            </div>
+            <input type="submit" class="button" value="Submit">
+            <input type="reset" class="button" value="Erase all"> 
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6em;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+input[type="text"], input[type="email"]{
+    width: 25%;
+}
+
+.gender, .hobby{
+    display: inline;
+}
+
+.button{
+    display: inline;
+    margin: 10px;
+}
